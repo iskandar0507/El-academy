@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+/* header start */
+header .sitelogo {
+    max-width: 208px;
+    height: 48px;
+}
+
+header .mynavbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.mynavbar ul li a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 144.52%;
+    color: #000000;
+}
+
+.mynavbar h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 144.52%;
+    color: #000000;
+}
+
+.mynavbar .bi-telephone-fill {
+    width: 38px;
+    height: 38px;
+    background-color: #FEDE09;
+    font-size: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header {
+    margin-top: 60px;
+}
+
+.header h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 144.52%;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.header p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 144.52%;
+    color: #000000;
+}
+
+.header h2 span {
+    display: block;
+    width: 12px;
+    height: 51px;
+    background: #FEDE09;
+    margin-right: 16px;
+}
+
+/* header end */
+
+/* section start */
+section {
+    padding: 50px 0;
+}
+
+section .section_title,
+main .section_title {
+    margin-bottom: 34px;
+}
+
+section .section_title h2,
+main .section_title h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 144.52%;
+    color: #000000;
+}
+
+section .section_title .line,
+main .section_title .line {
+    width: 200px;
+    height: 7px;
+    background-color: #FEDE09;
+    margin: auto;
+}
+
+section .lessonName {
+    background: #424242;
+    box-shadow: 9px 11px 14px -5px rgba(0, 0, 0, 0.25);
+    padding: 17px 56px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section .lessonName h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+section .lessonCard {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+}
+
+section .lessonCard p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+section .lessonCard .lessonText {
+    padding: 21px;
+    background: #FEDE09;
+    margin-bottom: 28px;
+    border-radius: 29px 29px 0px 0px;
+}
+
+section .card-items {
+    height: 253px;
+}
+
+section .card-item {
+    padding: 0 0 20px 20px;
+    margin: 0 45px;
+    border-left: 1px solid #424242;
+    position: relative;
+}
+
+section .card-item h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+section .card-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #FEDE09;
+    border: 2px solid #FEDE09;
+}
+
+section .price {
+    margin-top: 25px;
+    padding: 16px 0;
+    background: #424242;
+    border-radius: 0px 0px 29px 29px;
+    text-align: center;
+}
+
+section .price h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+/* section end */
+
+
+main {
+    padding: 50px 0;
+    background: #FFDF08;
+}
+
+main .section_title .line {
+    background-color: #fff;
+}
+
+main .mycol {
+    height: 278px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.37);
+    border-radius: 31px;
+    margin-bottom: 37px;
+}
+
+main .mycol img {
+    width: 163px;
+    height: 164px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+main .mycol .title {
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    background: #000000;
+    box-shadow: 10px 10px 20px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 31px 31px;
+}
+
+/* footer start */
+
+footer {
+    margin-top: 46px;
+    padding: 75px 0;
+    background: #FFDF08;
+}
+
+footer .footerAbout {
+    margin-bottom: 39px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+
+footer .footerAbout h4 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 104.52%;
+}
+
+footer .footerAbout p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 104.52%;
+}
+
+footer iframe {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+}
+
+/* mini footer */
+.minifooter {
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.minifooter h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 104.52%;
+    color: #000000;
+}
+
+.minifooter .bi {
+    font-size: 35px;
+    margin: 0 10px;
+    color: #000000;
+}
+
+.divnavbar {
+    margin-bottom: 50px;
+}
+
+/* article start */
+article {
+    margin: 42px 0;
+}
+
+article .registration {
+    background: #1A1A1A;
+    border-radius: 32px;
+    padding-left: 30px;
+}
+
+article .registrForm {
+    padding-top: 140px;
+    height: 600px;
+    background: url('img/Phone\ 1.png') no-repeat center center;
+}
+
+article .registrForm form {
+    max-width: 345px;
+    margin: auto;
+    text-align: center;
+}
+
+article .registrForm h2 {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 149.52%;
+    color: #FEDE09;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+article .registerAbout .bi-list-check {
+    font-size: 80px;
+    color: #fff;
+}
+
+article .registerAbout h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 104.52%;
+    color: #FFFFFF;
+}
+
+article .registerAbout p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 104.52%;
+    color: #FFFFFF;
+    margin-top: 33px;
+}
+
+/* article end */
+.mydisplay {
+    display: none;
+}
+
+/* media start */
+/* col-xl */
+@media(min-width: 1200px) {}
+
+/* col-lg */
+@media(min-width: 992px) and (max-width:1199px) {
+    section.lessonName h4 {
+        font-size: 20px;
+    }
+
+    .section .card-item h4 {
+        font-size: 18px;
+    }
+}
+
+/* col-md */
+@media(min-width: 768px) and (max-width:991px) {
+    section.lessonName h4 {
+        font-size: 20px;
+    }
+}
+
+/* col-sm */
+@media(min-width: 576px) and (max-width:767px) {}
+
+/* col */
+@media(max-width: 575px) {
+    .registrForm h2 {
+        font-size: 23px;
+    }
+
+    .header h2,
+    section .section_title h2,
+    main .section_title h2 {
+        font-size: 35px;
+    }
+
+    .section .lessonName h4 {
+        font-size: 22px;
+    }
+
+    .section .price h4 {
+        font-size: 30px;
+    }
+
+    .section .card-item h4 {
+        font-size: 10px;
+    }
+
+    article .registration {
+        padding-left: 20;
+    }
+
+    article .registrationAbout {
+        font-size: 30px;
+    }
+
+    .registrForm {
+        height: 350px;
+        background: none;
+        padding-top: 20px;
+    }
+
+    footer iframe {
+        height: 320px;
+    }
+
+    footer.footerAbout p {
+        font-style: 20px;
+    }
+
+}
+
+/* @media(min-width: 300px){
+    .header,.section,main,article,footer,.minifooter{
+        display: none;
+    }
+    .mydisplay{
+        display: block;
+    }
+    body{
+        background-color: #000000;
+        color: #fff;
+    }
+} */
+
+/* media end */
